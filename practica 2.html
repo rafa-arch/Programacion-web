@@ -1,0 +1,95 @@
+<!DOCTYPE Html>
+<html lang="es">
+  <head>
+    <title>Equipo #24</title>
+    <link rel="icon" href="https://lh3.googleusercontent.com/proxy/ayB0MkVys748YY-0PqTVNeT9F43hTdzZB4-43VEFo5YhxfUbz7D4sPbjD4P3c4XKN20c1zUxZp_9SZMng_9u7Tbh_x1OkIc8LQdDBPYe1w" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+  </head>
+  <body bgcolor="444444">
+     <header class="header">
+       <div class="container logo-nav-container">
+         <a href="#" class="logo"><img src="http://www.fime.uanl.mx/Images/logoFime.png" alt="FIME" width="150px" height="75px"></a>
+         <nav class="navigation">
+             <ul class="show">
+               <li><a href="index.html">Inicio</a></li>
+               <li><a href="practica 1.html">Practica 1</a></li>
+               <li><a href="">Practica 3</a></li>
+               <li><a href="">Practica 4</a></li>
+               <li><a href="">Practica 5</a></li>
+               <li><a href="">Practica 6</a></li>
+               <li><a href="">Practica 7</a></li>
+             </ul>
+           </nav>
+       </div>
+     </header>
+
+    <main class="main">
+      <div class="container">
+
+        <h1>Practica 2</h1>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <h2>HTML 5 </h2>
+          <p>HTML 5 (HyperText Markup Language, versión 5) es la quinta revisión importante del lenguaje básico de la World Wide Web, HTML. HTML5 especifica dos variantes de sintaxis para HTML: una «clásica», HTML (text/html), conocida como HTML5, y una variante XHTML conocida como sintaxis XHTML 5 que deberá servirse con sintaxis XML (application/xhtml+xml).</p>
+          <p>Esta es la primera vez que HTML y XHTML se han desarrollado en paralelo. La versión definitiva de la quinta revisión del estándar se publicó en octubre de 2014.</p>
+          <p>Al no ser reconocido en viejas versiones de navegadores por sus nuevas etiquetas, se recomienda al usuario común actualizar su navegador a la versión más nueva, para poder disfrutar de todo el potencial que provee HTML 5.</p>
+
+          <img style="width: 100%;" src="imagenes\pract 2\img1.jpg" alt="">
+
+          <h2> Diferencias entre HTML5 y HTML4/XHTML </h2>
+          <img style="width: 100%;" src="imagenes\pract 2\img2.jpg" alt="">
+          <img style="width: 100%;" src="imagenes\pract 2\img3.jpg" alt="">
+
+          <h2>6 beneficios de HTML5.</h2>
+            <ul>
+              <li>1. Incorporación de video.</li>
+                <p>Los videos, se han convertido en parte esencial de varios sitios Web. Esto se debe, principalmente, a su gran poder de atracción visual. Los diseñadores han sabido implementarlos de diversas formas, para así darle dinamismo a un sitio Web. HTML5 proporciona un estándar para mostrar videos, haciendo que su incorporación sea sencilla y popular.</p>
+              <li>2. Experiencia de usuario.</li>
+                <p>Gracias a que HTML5 ofrece una gran variedad de herramientas, se pueden diseñar y presentar sitios y aplicaciones Web que superen las expectativas de los usuarios. Consecuentemente, aumentando las visitas y proporcionando una buena experiencia. </p>
+              <li>3. Un código más limpio.</li>
+                <p>Para los desarrolladores Web, tratar de hacer cambios, en un código desordenado, puede tornarse en una situación de terror. Sin embargo, HTML5 ha sido creado para ofrecer un código más limpio, que soluciona el tan aquejado problema de tener que hacer modificaciones en un sitio Web.</p>
+              <li>4. Compatibilidad múltiple entre navegadores.</li>
+                <p>Los diseñadores Web pueden estar tranquilos de que, los sitios o sistemas que desarrollen serán compatibles en todos los navegadores.</p>
+              <li>5. Optimización para móviles.</li>
+                <p>Actualmente, sabemos que los teléfonos celulares y tabletas, no pueden ser ignorados. Por esta razón, HTML5 es aún más increíble, ya que está optimizado para desarrollar sitios y aplicaciones móviles. Esto significa que, con HTML5, podrás llevar a cabo proyectos responsivos y funcionales para todo tipo de dispositivos.</p>
+              <li>6. Una mejor posibilidad de ranking.</li>
+                <p>HTML5 ofrece un código optimizado para ser leído por los motores de búsqueda con mayor facilidad. Debido a esto, el contenido de un sitio Web desarrollado con HTML5, podrá ser comprendido para, consecuentemente, obtener un mejor ranking en las búsquedas</p>
+            </ul>
+
+          <h2>Apis de HTML5</h2>
+            <ul>
+              <li>1.classList</li>
+                <p>Ya que classList es una funcionalidad relativamente nueva de HTML5, no funciona en los navegadores más viejos, pero esto no debería preocuparnos ya que existe una polyfill llamada classlist.js. Aunque si estamos usando alguna librería javascript como jQuery, no necesitaremos esta API de forma nativa.</p>
+              <li>2. dataset</li>
+                <p>elem.dataset no es soportado por Internet Explorer ni por los navegadores móviles más antiguos. Para todos los navegadores no hay problema en utilizar atributos data-*. Pero lo que no conviene que usemos es elem.dataset.foo para obtener su valor en javascript, en vez de esto utilicemos elem.getAttribute(‘data-foo’). La polyfill que existe para esta API es HTML5 dataset support</p>
+              <li>3. DOM</li>
+                <p>Actualmente, un gran conjunto de las nuevas funcionalidades sobre el DOM puede ser «corregido». Sin embargo, los «shims» o «correctores» actuales no están probados en un 100% y se pierden algunas funciones. Los polyfills existentes (ES5-DOM-shim y DOM-shim) se deben usar con precaución. Igual hay que recordar, que podemos utilizar cualquier librería que manipule el DOM como jQuery que posee selectores y funciones muy potentes como las nativas de HTML5. He escrito un artículo en este sitio sobre esta API y su relación con los selectores de jQuery.</p>
+              <li>4. Drag and Drop</li>
+                <p>La funcionalidad de Drag and Drop se ha estandarizado en HTML5 basandose en la implementación original de Internet Explorer (¡si, de IE!). Es por esto que ya tiene un soporte bastante amplio, pero muchos se sienten frustrados cuando usan este API. Por eso, se recomienda usar jQuery UI Draggable (u otra librería Javascript). Las polyfills recomendadas: dropfile, fileSaver, jDataView.</p>
+              <li>5. EventSource</li>
+                <p>Eventos enviados por el servidor (Server-Sent Events) son eventos en tiempo real emitidos por el servidor y recibidos por el navegador. EventSource.js provee de una alternativa y no depende de jQuery. Los polyfills que se recomiendan son EventSource.js, jQuery.eventsource</p>
+              <li>6. Geolocalización</li>
+                <p>El polyfill geolocation shim usa el servicio de IP-Geocoding de Google como alternativa para los navegadores que no soportan esta API. El otro polyfill se llama geo-location-javascript no usa el servicio del buscador, pero utiliza las APIs específicas de BlackBerry, WebOS y Google Gears. En la mayoría de los casos, no se debería exponer características de geolocalización en tu aplicación si esta característica no está presente nativamente.</p>
+              <li>7. Historial (History)</li>
+                <p>La API de historia provee a Javascript una forma de cambiar la URL mostrada en el navegador sin recargar la página. El plugin History.js suaviza algunas diferencias de implementación entre los navegadores y provee un hashchange alternativo para navegadores con HTML4. GitHub usa pjax (pushState + ajax).</p>
+              <li>8. IndexedDB</li>
+                <p>IndexedDB fue una especificación volátil por un año, pero se calmó. Además de Chrome y Firefox, IE10 también la va a soportar; Opera no lo ha implementado y Safari todavía no se ha comprometido con la misma.</p>
+                <p>El polyfill IDBWrapper ayuda a suavizar las diferencias entre los navegadores. Se puede considerar el uso de WebSQL cuando IndexedDB no es soportada, pero hay que recordar que la especificación de WebSQL fue abandonada.</p>
+              <li>9. localStorage</li>
+                <p>localStorage y sessionStorage son una muy buena forma de guardar datos sin tener que utilizar cookies. Incluso IE8 soporta a ambas así que es poco probable que necesites un polyfill. Si lo necesitas, el de Remy Sharp es muy bueno y fácil de implementar.</p>
+                <p>En localStorage, los datos que se guardan son de tipo/valor (key/value), así que si se desea guardar datos más complejos, podemos hacerlo guardando JSON en forma de string (JSON.stringify(obj)) que luego parsearemos con JSON.parse(str), luego de obtener el registro guardado. Tampoco hay forma de saber (en los distintos navegadores) si se ha excedido la capacidad, así que conviene envolver nuestro código entre try/catch. Es seguro usar hasta 2.5 MB.</p>
+              <li>10. matchMedia</li>
+                <p>matchMedia es una API Javascript para ver si una «media query» va a tener exito. El polyfill MatchMedia.js nos permite utilizar esta API en todos los navegadores. Si necesitas una alternativa que es sensible al cambio de tamaño de la ventana, puedes usar este fork, aunque es limitado para navegadores que soportan transiciones CSS.</p>
+                <p>matchMedia es muy útil para trabajar en sitios que tiene diseño sensible a diferentes tamaños de pantalla (responsive design).</p>
+
+            </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
